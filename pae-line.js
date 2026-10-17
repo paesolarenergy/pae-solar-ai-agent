@@ -1,5 +1,5 @@
 // ตั้งค่าเฉพาะ LINE OA ของแบรนด์ PAE เท่านั้น ไม่ใส่ token/secret ในไฟล์นี้
-const PAE_LINE_OA_URL = 'https://line.me/R/ti/p/@YOUR_PAE_LINE_ID';
+const PAE_LINE_OA_URL = 'https://lin.ee/zfwfGRh';
 document.getElementById('lineContact')?.addEventListener('click',async()=>{
   const status=document.getElementById('lineStatus');
   const b=Number(document.getElementById('bill').value||0);
